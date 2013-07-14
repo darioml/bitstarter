@@ -11,4 +11,4 @@ source $HOME/.nvm/nvm.sh
 nvm install v0.10.12
 nvm use v0.10.12
 
-sudo puppet apply $DIR/manifests/base.pp
+sudo puppet apply $DIR/base.pp
