@@ -5,7 +5,13 @@ This repository is used purely for educational purpose, following the coursera s
 
 Any references to any other technology, developed by me or not, are used here purely for convenience. This project hold no relevance to any such project, and has no purpose outisde the academic world.
 
-##Installation
+##Installation & Setup
+
+### Local
+
+Run node. I recommend NVMing up. Head to localhost:4000 once you're done!
+
+### Remote
 
 Overkill in using puppet - but hey!
 
