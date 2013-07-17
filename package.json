@@ -4,7 +4,8 @@
   "description": "A bitstarted project for Leanguage",
   "main": "web.js",
   "dependencies": {
-    "express": "2.5.x"
+    "express": "2.5.x",
+    "coffeekup": "0.3.x"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
