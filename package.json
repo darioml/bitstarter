@@ -4,8 +4,11 @@
   "description": "A bitstarted project for Leanguage",
   "main": "web.js",
   "dependencies": {
-    "express": "2.5.x",
-    "coffeekup": "0.3.x"
+    "express": "3.3.4",
+    "coffeekup": "0.3.x",
+    "jade": "*",
+    "stylus": "*",
+    "teacup": "~0.2.8"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -17,6 +20,10 @@
   "engines": {
     "node": "0.8.x",
     "npm": "1.1.x"
+  },
+  "private": true,
+  "scripts": {
+    "start": "coffee app.coffee"
   },
   "repository": {
     "type": "git",
