@@ -17,44 +17,21 @@ block content
                 a(href='#about') About
               li
                 a(href='#contact') Contact
-          //
-            /.nav-collapse 
-  //
-     We use row-fluid inside containers to achieve a resizable layout. 
-    //
-       blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ 
-    //
-       http://stackoverflow.com/a/12270322 
-    .container
-      //
-         Font and paired font of .heading/.subheading and body from Google Fonts 
-      //
-         www.google.com/fonts/specimen/Ubuntu 
-      //
-         www.google.com/fonts/specimen/Ubuntu#pairings 
+
+  .container
       .row-fluid.heading
         .span12
           h1 Learnguage
       .row-fluid.subheading
         .span12
-          //
-             Special typography from Bootstrap for lead paragraph. 
-          //
-             http://twitter.github.io/bootstrap/base-css.html#typography 
           p.lead Download langauges to your mind.
       .row-fluid.pitch
         .span5.offset1.video
           img.img-polaroid(src='http://placehold.it/480x300')
-        //
-           We define a new 'actions' div to contain statistics, order, and share buttons.
         .span5.actions
           .span8.offset2
             .statistics
               .span4
-                //
-                   linediv-l and linediv-r give dividing lines that look
-                                  different in horizontal and vertical layouts, illustrating
-                                  media queries. 
                 .linediv-l
                   h3 1000
                   p backers
@@ -67,76 +44,45 @@ block content
                   h3 10
                   p days left
           .span10.offset1
-            //
-               Bootstrap progress bar 
-            //
-               http://twitter.github.io/bootstrap/components.html#progress 
             .thermometer.progress.active
               .bar.bar-success(style='width: 60%;')
               .bar.bar-warning(style='width: 40%;')
           .span6.offset3.order
-            //
-               Standard Bootstrap button. 
-            //
-               http://twitter.github.io/bootstrap/base-css.html#buttons 
             button.btn.btn-success.btn-large Preorder
           .span8.offset2.social
-            //
-               Social buttons are not included in default Bootstrap. 
-            //
-               See: http://noizwaves.github.io/bootstrap-social-buttons 
             button.btn.btn-twitter
               i.icon-twitter
               | | Twitter
             button.btn.btn-facebook
               i.icon-facebook
               | | Facebook
-      //
-         Beyond this part the marketing copy begins. 
-      //
-         https://developer.mozilla.org/en-US/docs/Web/CSS/text-align 
-      //
-         http://twitter.github.io/bootstrap/base-css.html#images 
-      //
-         http://placehold.it 
       .row-fluid.section1
         .span5.offset1.asset
           img.img-polaroid(src='http://placehold.it/480x300')
         .span5.copy
           p
-            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            | porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            | mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            | fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            | volutpat lorem ut congue malesuada. In facilisis scelerisque
-            | turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            | quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            | risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            | consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            | rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            | nunc. Fusce nec egestas sem. Donec fringilla.
+            | Learnguage will revolutionarise the way we learn languages.
+            | Compromised soley of a wireless earpiece, learnguage links 
+            | directly to your Language Aquistation Device (LAD), and 
+            | uses DNA altering sonicwaves to teach you languages.
+          p
+            | All as easy as downloading an application.
+          p
+            | French, German and Spanish are preloaded on your Learnguage device.
+            | Additional charges will be added should you want to order
+            | additional devices.
       .row-fluid.section2
         .span5.offset1.copy.copy-right
           p
-            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            | porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            | mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            | fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            | volutpat lorem ut congue malesuada. In facilisis scelerisque
-            | turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            | quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            | risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            | consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            | rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            | nunc. Fusce nec egestas sem. Donec fringilla.
+            | Our patented design feels comfortable to wear, and is built
+            | to allow you to sleep unhindered. Countless hours have gone
+            | into the perfect shape and weight to let you learn even while
+            | asleep.
+          p
+            | Learnguage can be used anywhere. Asleep, in the car, 
+            | in the morning, at the gym, or even at work.
         .span5.asset
           img.img-polaroid(src='http://placehold.it/480x300')
-      //
-         For the FAQ, we introduce a little bit of JS, using the accordion. 
-      //
-         This brings in jquery.js and bootstrap.js as dependencies. 
-      //
-         http://twitter.github.io/bootstrap/javascript.html#collapse 
       .row-fluid.faq
         .span10.offset1
           h3 FAQ
@@ -155,9 +101,6 @@ block content
               #collapseTwo.accordion-body.collapse
                 .accordion-inner
                   | A question which is commonly asked by users.
-      //
-         Not crucial, but we put this under a CC By-SA 3.0 license. 
-      //
          http://creativecommons.org/licenses/ 
       .row-fluid.footer
         .span12
