@@ -9,8 +9,9 @@ Any references to any other technology, developed by me or not, are used here pu
 
 Since multiple people are using this repo, please follow the following procedures:
 - Anything into master must be brought with a PULL REQUEST
-- Staging branch will be held in a staging environment (once I set this up..). I suspect it's easiest for me to run this on the same machine as the master branch.
-- I'm working on a MAC, not on AWS. As such the puppet files I created are slightly outdated.
+- Do dev work in your own branch, you can push your branch to heroku and mess around there
+- Send a pull request. We dont really need to use the staging branch, since we're not going to have a central staging. (I'll be using it every so often)
+- I'm working on a MAC, not on AWS. As such the puppet files I created are slightly outdated...
 
 Regarding the coursera course:
 - Homeworks look for an .html file. I don't do that stuff. I will add a /homework/ dir which will hold an index.html file to submit to coursera
